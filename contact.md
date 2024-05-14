@@ -4,8 +4,6 @@ title: Contact
 description: Reach out if you have any questions!
 ---
 
-## Welcome to another page
+## How to contact me!
 
-_yay_
-
-[back](./)
+Send me an [email](mailto:YourEmailAddress@example.com) or message me on [LinkedIn](https://www.linkedin.com/in/arel-akaunu)
