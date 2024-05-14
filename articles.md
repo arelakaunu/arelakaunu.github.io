@@ -12,6 +12,6 @@ description: My recent musings.
 
 - [**AI in Medical Imaging**](/ai-medical.html)
   - AI shows great promise for reducing motion in Magnetic Resonance Imaging (MRI).
-  - Download the full literature review [here]().
+  - Download the full literature review [here](/ai-medical-review.pdf).
 
 Let me know what you think [here](/contact.html)
