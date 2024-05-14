@@ -19,11 +19,11 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
-        <a href="{{ https://arelakaunu.github.io/index.html }}" class="btn">Home/a>
+        <a href="{{ ./index.html }}" class="btn">Home/a>
       {% endif %}
       {% if site.show_downloads %}
-        <a href="{{ arelakaunu.github.io/projects.html }}" class="btn">Projects</a>
-        <a href="{{ arelakaunu.github.io/contact.html }}" class="btn">Contact Me</a>
+        <a href="{{ ./projects.html }}" class="btn">Projects</a>
+        <a href="{{ ./contact.html }}" class="btn">Contact</a>
       {% endif %}
     </header>
 
