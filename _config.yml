@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: Arel Akaunu's Insights and Coding
 description: Explore the intersection of insightful analysis and hands-on coding with Arel Akaunu's portfolio. Dive into thought-provoking articles offering deep insights across various domains, complemented by a showcase of meticulously crafted coding projects. Discover the synthesis of analytical thinking and technical expertise, curated by Arel Akaunu to inspire and inform.
+google_analytics: G-CVW4711Y3G
