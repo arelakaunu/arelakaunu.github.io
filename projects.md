@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Another page
-description: This is just another page
+title: Projects
+description: A list of all my projects.
 ---
 
-## Welcome to another page
+## Welcome to my Projects
 
-_yay_
+_Project 1_
 
-[back](./)
+[Home](./)
