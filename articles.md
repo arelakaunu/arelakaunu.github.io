@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Blog
+title: Articles
 description: My recent musings.
 ---
 
-## A variety of readings in tech, finance, music and philosophy.
+## A variety of articles spanning tech, finance, music and philosophy.
 
 - **Interview with the National Gallery**
   - Summary of my chat with Angie of the National Gallery.
