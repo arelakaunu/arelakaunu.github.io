@@ -1,6 +1,5 @@
 ---
 layout: default
-title: AI in Medical Imaging
 ---
 
 # How Machine Learning is used to Reduce Motion in Magnetic Resonance Imaging (MRI)
@@ -17,7 +16,7 @@ Enter Artificial Intelligence (AI), the transformative force reshaping the lands
 
 The potential of AI in MRI imaging is nothing short of awe-inspiring. Envision a world where motion artefacts are swiftly identified and corrected in real-time, where the clarity of MRI images rivals that of a meticulously crafted masterpiece. This is the future that AI beckons – a future where every pixel tells a story, every scan a testament to the power of technology and human ingenuity.
 
-
+![Sample Image](/haskell.jpg)
 
 Yet, like any groundbreaking technology, AI faces its own set of challenges. Limited training data and the time-intensive nature of model training sessions pose formidable hurdles on the path to perfection. However, researchers and clinicians are undeterred, forging ahead with determination and ingenuity, driven by the promise of a brighter, clearer future for MRI imaging.
 
