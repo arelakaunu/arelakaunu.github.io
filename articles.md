@@ -4,7 +4,7 @@ title: Articles
 description: My recent musings.
 ---
 
-## A variety of articles spanning tech, finance, music and philosophy.
+# Articles spanning tech, finance, music and philosophy.
 
 - [**Interview with the National Gallery**](/nat-gal.html)
   - Summary of my chat with Angie of the National Gallery.
