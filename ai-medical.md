@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# How Machine Learning is used to Reduce Motion in Magnetic Resonance Imaging (MRI)
+# How Machine Learning is Used to Reduce Motion in Magnetic Resonance Imaging (MRI)
 
 ## TLDR
 In the realm of modern healthcare, Magnetic Resonance Imaging (MRI) reigns supreme for its unparalleled precision. However, motion artefacts often compromise image clarity, hindering accurate diagnoses. Enter Artificial Intelligence (AI), wielding Convolutional Neural Networks (CNNs) to revolutionise MRI motion correction. While AI shows immense promise, challenges like limited data and lengthy training sessions persist. Yet, through collaboration and innovation, hybrid approaches are emerging, combining AI with traditional techniques for sharper MRI images. The future of MRI imaging holds boundless possibilities, where AI and human expertise converge to redefine patient care.
@@ -14,9 +14,14 @@ Chief among these challenges are motion artefacts – those pesky distortions an
 
 Enter Artificial Intelligence (AI), the transformative force reshaping the landscape of modern medicine. Armed with potent algorithms and machine learning capabilities, AI holds the promise of revolutionising MRI motion correction. At the forefront of this revolution are Convolutional Neural Networks (CNNs), cutting-edge AI models that offer a tantalising glimpse into the future of MRI imaging.
 
-The potential of AI in MRI imaging is nothing short of awe-inspiring. Envision a world where motion artefacts are swiftly identified and corrected in real-time, where the clarity of MRI images rivals that of a meticulously crafted masterpiece. This is the future that AI beckons – a future where every pixel tells a story, every scan a testament to the power of technology and human ingenuity.
+The potential of AI in MRI imaging is nothing short of awe-inspiring. Envision a world where motion artefacts are swiftly identified and corrected in real time, where the clarity of MRI images rivals that of a meticulously crafted masterpiece. This is the future that AI beckons – a future where every pixel tells a story, every scan a testament to the power of technology and human ingenuity.
 
-![Sample Image](/haskell.jpg)
+<figure>
+  <img src="haskell.jpg" alt="Image of motion correction" width="300" height="200">
+  <figcaption>Reconstructed images assuming no motion occurred, correcting
+for motion between shots (intershot correction), and correction results after allowing fine-tuning of the motion parameters for
+each line of k-space at highly corrupted shots (intrashot correction). Haskell 2019.</figcaption>
+</figure>
 
 Yet, like any groundbreaking technology, AI faces its own set of challenges. Limited training data and the time-intensive nature of model training sessions pose formidable hurdles on the path to perfection. However, researchers and clinicians are undeterred, forging ahead with determination and ingenuity, driven by the promise of a brighter, clearer future for MRI imaging.
 
