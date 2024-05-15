@@ -10,7 +10,7 @@ description: My recent musings.
   - Summary of my chat with Angie of the National Gallery.
   - [Link](https://spotify.com) to the podcast.
 
-- [**Revolutionising MRI Imaging with AI: A Glimpse into the Future of Healthcare**](/ai-medical.html)
+- [**How Machine Learning is used to Reduce Motion in Magnetic Resonance Imaging**](/ai-medical.html)
   - Artificial Intelligence is poised to revolutionise Magnetic Resonance Imaging (MRI). From tackling motion artefacts to enhancing image clarity, AI-powered solutions are reshaping the landscape of medical imaging.
   - Download the full literature review [here](/Research Review.pdf).
 
