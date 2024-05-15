@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Secret Tech used in the National Gallery
 ---
 
 # How to see what is really behind a painting.
