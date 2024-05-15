@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Arel Akaunu
 ---
 
 # How Machine Learning is Used to Reduce Motion in Magnetic Resonance Imaging (MRI)
