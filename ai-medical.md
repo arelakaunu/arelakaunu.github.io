@@ -4,7 +4,7 @@ layout: default
 
 # How Machine Learning is Used to Reduce Motion in Magnetic Resonance Imaging (MRI)
 
-## TLDR
+## TL;DR
 In the realm of modern healthcare, Magnetic Resonance Imaging (MRI) reigns supreme for its unparalleled precision. However, motion artefacts often compromise image clarity, hindering accurate diagnoses. Enter Artificial Intelligence (AI), wielding Convolutional Neural Networks (CNNs) to revolutionise MRI motion correction. While AI shows immense promise, challenges like limited data and lengthy training sessions persist. Yet, through collaboration and innovation, hybrid approaches are emerging, combining AI with traditional techniques for sharper MRI images. The future of MRI imaging holds boundless possibilities, where AI and human expertise converge to redefine patient care.
 
 ## Full Article
