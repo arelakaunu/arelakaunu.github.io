@@ -2,11 +2,10 @@
 layout: default
 ---
 
-# How to see what is really behind a painting.
+# How to see what is really behind a painting
 
-## TLDR
-
-Brief description of the article goes here.
+## TL;DR
+Short description
 
 ## Full Article
 blah blah blah
