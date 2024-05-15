@@ -12,6 +12,6 @@ description: My recent musings.
 
 - [**How Machine Learning is used to Reduce Motion in Magnetic Resonance Imaging**](/ai-medical.html)
   - Artificial Intelligence is poised to revolutionise Magnetic Resonance Imaging (MRI). From tackling motion artefacts to enhancing image clarity, AI-powered solutions are reshaping the landscape of medical imaging.
-  - Download the full literature review [here](/Research Review.pdf).
+  - Download the full literature review [here](/ai_medical_review.pdf).
 
 Let me know what you think [here](/contact.html)
