@@ -2,6 +2,7 @@
 layout: default
 title: Articles
 description: My recent musings.
+permalink: /articles
 ---
 
 # Recent Articles
