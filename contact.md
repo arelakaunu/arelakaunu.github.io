@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 description: Reach out if you have any questions!
+permalink: /projects
 ---
 
 ## Feel free to reach out to me via email or LinkedIn:
