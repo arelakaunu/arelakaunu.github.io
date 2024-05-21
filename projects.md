@@ -2,7 +2,7 @@
 layout: default
 title: Projects
 description: A list of all my projects.
-permalink: /projects/
+permalink: /projects
 ---
 
 ## Welcome to my Projects
