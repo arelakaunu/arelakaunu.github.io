@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to Projects](./projects.html).
+[Link to Projects](./projects).
 
 There should be whitespace between paragraphs.
 
