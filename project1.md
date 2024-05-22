@@ -26,11 +26,3 @@ Brief description of Project 1 goes here. Explain what the project is about and 
 def greet(name):
     return f"Hello, {name}!"
 ```
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
