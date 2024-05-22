@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Arel Akaunu
+permalink: /ai-medical
 ---
 
 # How Machine Learning is Used to Reduce Motion in MRI
