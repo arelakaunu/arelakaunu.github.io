@@ -9,15 +9,15 @@ permalink: /projects
 
 Here's a list of some of my projects:
 
-1. [Project 1](project1.html)
+1. [Project 1](project1)
    - Description: Brief description of Project 1.
    - [View Project Details](project1)
 
-2. [Project 2](project2.html)
+2. [Project 2](project2)
    - Description: Brief description of Project 2.
    - [View Project Details](project2)
 
-3. [Project 3](project3.html)
+3. [Project 3](project3)
    - Description: Brief description of Project 3.
    - [View Project Details](project3)
 
