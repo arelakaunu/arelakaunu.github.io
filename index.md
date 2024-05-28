@@ -4,9 +4,9 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-Here is my CV
+Here is my **CV**
 
-<object data="arel-akaunu-cv.pdf" type="application/pdf" width="100%" height="500px">
+<object data="assets/pdf/arel-akaunu-cv.pdf" type="application/pdf" width="100%" height="500px">
   <p>Unable to display PDF file. <a href="arel-akaunu-cv.pdf">Download</a> instead.</p>
 </object>
 
