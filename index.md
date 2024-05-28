@@ -4,7 +4,11 @@ layout: default
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to Projects](./projects).
+Here is my CV
+
+<object data="arel-akaunu-cv.pdf" type="application/pdf" width="100%" height="500px">
+  <p>Unable to display PDF file. <a href="arel-akaunu-cv.pdf">Download</a> instead.</p>
+</object>
 
 There should be whitespace between paragraphs.
 
