@@ -11,11 +11,11 @@ Arel Akaunu:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ArelAkaunu"
-      target: _blank
-          - label: "LinkedIn"
+      target: "_blank"
+    - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arel-akaunu"
-      target: _blank
+      target: "_blank"
       
 Morayo Omotesho:
   name        : "Morayo Omotesho"
@@ -26,10 +26,10 @@ Morayo Omotesho:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:morayoofficial559@gmail.com"
     #- label: "Website"
-     # icon: "fas fa-fw fa-link"
-     # url: "https://thewhip.com"
+    #  icon: "fas fa-fw fa-link"
+    #  url: "https://thewhip.com"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/morayo.ibidunniportfolio/"
-      target: _blank
+      target: "_blank"
 
