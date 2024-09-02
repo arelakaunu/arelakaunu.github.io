@@ -32,4 +32,8 @@ Morayo Omotesho:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/morayo.ibidunniportfolio/"
       target: "_blank"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/moray0"
+      target: "_blank"
 
