@@ -119,7 +119,7 @@ author:
   location         : "London, UK"
   email            : "arel.akaunu@outlook.com"
   linkedin         : "arel-akaunu"
-  Instagram        : "arel.akaunu"
+  instagram        : "arel.akaunu"
   github           : "arelakaunu"
   links:
     - label: "Email"
@@ -141,33 +141,43 @@ author:
       target: "_blank"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/arel.akaunu/"
+      # url: "https://www.instagram.com/arel.akaunu/"
       target: "_blank"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ArelAkaunu"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:arel.akaunu@outlook.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/arel-akaunu"
       target: "_blank"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/arel.akaunu/"
+      target: "_blank"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/arelakaunu"
       target: "_blank"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/ArelAkaunu"
+      target: "_blank"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/arel.akaunu/"
-      target: "_blank"
+
+
+
 
 
 
