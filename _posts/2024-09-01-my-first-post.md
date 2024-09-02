@@ -1,8 +1,9 @@
 ---
 title: "Layout: Header Image and Text Readability"
 header:
-  image: /assets/images/unsplash-image-4.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  image: /assets/images/cam.jpeg
+  caption: "**A photo of Cambridge.**"
+  teaser: assets/images/cam.jpeg
 tags: 
   - sample post
   - readability
