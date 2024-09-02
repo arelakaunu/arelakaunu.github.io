@@ -3,7 +3,7 @@ title: "Layout: Header Image and Text Readability"
 header:
   image: /assets/images/cam.jpeg
   caption: "**A photo of Cambridge.**"
-  teaser: assets/images/cam.jpeg
+  teaser: assets/images/bio-photo-morayo.jpg
 tags: 
   - sample post
   - readability
