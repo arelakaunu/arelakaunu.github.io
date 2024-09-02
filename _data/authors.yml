@@ -1,9 +1,26 @@
 # /_data/authors.yml
 
+Arel Akaunu:
+  name        : "Arel Akaunu"
+  bio         : "Quantitative Developer."
+  avatar      : "/assets/images/bio-photo.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:arel.akaunu@outlook.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ArelAkaunu"
+      target: _blank
+          - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/arel-akaunu"
+      target: _blank
+      
 Morayo Omotesho:
   name        : "Morayo Omotesho"
   bio         : "PR & Marketing Consultant."
-  avatar      : "/assets/images/bio-photo.jpg"
+  avatar      : "/assets/images/bio-photo-morayo.jpg"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -16,15 +33,3 @@ Morayo Omotesho:
       url: "https://www.instagram.com/morayo.ibidunniportfolio/"
       target: _blank
 
-Arel Akaunu:
-  name        : "Arel Akaunu"
-  bio         : "Quant Dev."
-  avatar      : "/assets/images/bio-photo-2.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:arel.akaunu@outlook.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ArelAkaunu"
-      target: _blank
