@@ -12,22 +12,22 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Morayo Omotesho | PR & Marketing"
+title                    : "Arel Akaunu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Morayo Omotesho"
-description              : "A portfolio showcasing my PR & Marketing work as a University of Cambridge graduate and alumna."
-url                      : "https://morayoomotesho.github.io"
+name                     : "Arel Akaunu"
+description              : "Coding Portfolio - University of Cambridge Graduate."
+url                      : "https://arelakaunu.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "morayoomotesho/morayoomotesho.github.io"
+repository               : "arelakaunu/arelakaunu.github.io"
 teaser                   : "/assets/images/cam.jpeg"
-logo                     : "/assets/images/logo.jpeg"
-masthead_title           : "Morayo Omotesho"
+logo                     : "/assets/images/aa-logo.jpeg"
+masthead_title           : "Arel Akaunu"
 breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : true
@@ -113,18 +113,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "Morayo Omotesho"
+  name             : "Arel Akaunu"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "PR & Marketing Consultant. University of Cambridge Graduate."
+  bio              : "Quantitative Devloper. University of Cambridge Graduate."
   location         : "London, UK"
-  email            : "morayoofficial559@gmail.com"
-  linkedin         : "moray0"
-  Instagram        : "morayo.ibidunniportfolio"
-  github           : "morayoomotesho"
+  email            : "arel.akaunu@outlook.com"
+  linkedin         : "arel-akaunu"
+  Instagram        : "arel.akaunu"
+  github           : "arelakaunu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:morayoofficial559@gmail.com"
+      # url: "mailto:arel.akaunu@outlook.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
@@ -141,7 +141,7 @@ author:
       target: _blank
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/morayo.ibidunniportfolio/"
+      url: "https://www.instagram.com/arel.akaunu/"
       target: _blank
 
 # Site Footer
@@ -149,14 +149,14 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/Morayo__"
+      url: "https://twitter.com/ArelAkaunu"
       target: _blank
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/arelakaunu"
       target: _blank
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
@@ -166,7 +166,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/morayo.ibidunniportfolio/"
+      url: "https://www.instagram.com/arel.akaunu/"
       target: _blank
 
 
