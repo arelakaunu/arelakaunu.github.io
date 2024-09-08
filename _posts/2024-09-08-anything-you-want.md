@@ -64,3 +64,5 @@ title: "Contact Form"
   <br>
   <input type="submit" value="Submit">
 </form>
+
+<script src="/assets/js/form-handler.js"></script>
