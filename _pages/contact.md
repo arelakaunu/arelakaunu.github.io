@@ -4,6 +4,7 @@ title: "Contact Me"
 ---
 
 <form id="contact-form" action="https://formspree.io/f/xqazjjbz" method="POST">
+  <input type="hidden" name="form_type" value="contact">
   <fieldset>
     <legend>Reach Out!:</legend>
     Name: <input type="text" name="name" size="30" required><br>
