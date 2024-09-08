@@ -27,8 +27,8 @@ Enter Artificial Intelligence (AI), the transformative force reshaping the lands
 The potential of AI in MRI imaging is nothing short of awe-inspiring. Envision a world where motion artefacts are swiftly identified and corrected in real time, where the clarity of MRI images rivals that of a meticulously crafted masterpiece. This is the future that AI beckons – a future where every pixel tells a story, every scan a testament to the power of technology and human ingenuity.
 
 <figure>
-  <img src="assets/images/haskell.jpg" alt="Image of motion correction">
-  <figcaption>Reconstructed images assuming no motion occurred, correcting
+    <a href="/assets/images/haskell.jpg"><img src="/assets/images/haskell.jpg.jpg"></a>
+    <figcaption>Reconstructed images assuming no motion occurred, correcting
 for motion between shots (intershot correction), and correction results after allowing fine-tuning of the motion parameters for
 each line of k-space at highly corrupted shots (intrashot correction). Haskell 2019.</figcaption>
 </figure>
