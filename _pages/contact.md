@@ -5,7 +5,7 @@ title: "Contact Me"
 
 <form id="contact-form" action="https://formspree.io/f/xqazjjbz" method="POST">
   <fieldset>
-    <legend>Contact Us:</legend>
+    <legend>Reach Out!:</legend>
     Name: <input type="text" name="name" size="30" required><br>
     Email: <input type="email" name="email" size="30" required><br>
     Enquiry: <textarea name="enquiry" rows="5" cols="30" required></textarea><br>
