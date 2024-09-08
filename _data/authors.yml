@@ -16,6 +16,10 @@ Arel Akaunu:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/arel-akaunu"
       target: "_blank"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/that.fintechbro/"
+      target: "_blank"
       
 Morayo Omotesho:
   name        : "Morayo Omotesho"
