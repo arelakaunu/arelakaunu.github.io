@@ -5,7 +5,7 @@ title: "Newsletter"
 
 # Sign Up for My Newsletter
 
-<form id="newsletter-form">
+<form id="newsletter-form" action="https://formspree.io/f/xqazjjbz" method="POST">
   <fieldset>
     <legend>Newsletter Signup:</legend>
     Name: <input type="text" name="name" size="30" required><br>
