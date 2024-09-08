@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   function sendFormData(formData) {
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://formspree.io/f/mnqlgdlj"); // Replace with the correct Formspree endpoint
+    xhr.open("POST", "https://formspree.io/f/xqazjjbz"); // Replace with the correct Formspree endpoint
     xhr.setRequestHeader("Accept", "application/json");
     xhr.onreadystatechange = function() {
       if (xhr.readyState === XMLHttpRequest.DONE) {
