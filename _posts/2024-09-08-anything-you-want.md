@@ -18,8 +18,10 @@ Persistence is often seen as the key to success, but Sivers suggests it’s not 
 Sivers encourages us to adopt a "Hell yeah!" or "no" approach to decisions. By saying "no" to most things, you make room to fully commit to the opportunities that genuinely excite you. It’s a refreshing way to avoid spreading yourself too thin.
 
 ### Embrace Change
-One of the standout quotes from the book is, 
+One of the standout quotes from the book is,
+
 > No plan survives first contact with customers.
+
 It’s a reminder to be flexible and ready to adapt as your business or project evolves.
 
 ### The Perks of No Funding
