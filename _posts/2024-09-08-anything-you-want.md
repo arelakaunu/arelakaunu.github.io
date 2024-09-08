@@ -48,9 +48,7 @@ Finally, Sivers emphasises that it’s about who you want to be, not what you wa
 ### Conclusion
 *Anything You Want* is a reminder that business and life are what you make of them. It’s about doing things on your terms, staying true to what excites you, and not getting lost in the noise of conventional wisdom. For anyone looking to carve out their own path, Sivers' advice is invaluable.
 
----
-title: "Contact Form"
----
+**Contact Form**
 
 # Contact Us
 
