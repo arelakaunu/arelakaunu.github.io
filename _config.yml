@@ -21,7 +21,7 @@ title                    : "Arel Akaunu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Arel Akaunu"
-description              : "Coding Portfolio - University of Cambridge Graduate."
+description              : "Coding Portfolio - Current MSc Data Science Student - University of Cambridge Physics Graduate"
 url                      : "https://arelakaunu.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "arelakaunu/arelakaunu.github.io"
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Arel Akaunu"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "Quantitative Developer. University of Cambridge Graduate."
+  bio              : "Current MSc Data Science Student. University of Cambridge Physics Graduate."
   location         : "London, UK"
   email            : "arel.akaunu@outlook.com"
   linkedin         : "arel-akaunu"
