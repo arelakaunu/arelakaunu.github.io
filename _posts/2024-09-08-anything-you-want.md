@@ -54,15 +54,14 @@ title: "Contact Form"
 
 # Contact Us
 
-<form id="personaliaForm" onsubmit="handleSubmit(event)">
+<form id="contact-form">
   <fieldset>
-    <legend>Personalia:</legend>
-    Name: <input type="text" id="name" size="30"><br>
-    Email: <input type="text" id="email" size="30"><br>
-    Date of birth: <input type="text" id="dob" size="10">
+    <legend>Contact Me:</legend>
+    Name: <input type="text" name="name" size="30" required><br>
+    Email: <input type="email" name="email" size="30" required><br>
+    Enquiry: <textarea name="enquiry" rows="4" cols="30" required></textarea><br>
+    <button type="submit">Submit</button>
   </fieldset>
-  <br>
-  <input type="submit" value="Submit">
 </form>
 
 <script src="/assets/js/form-handler.js"></script>
