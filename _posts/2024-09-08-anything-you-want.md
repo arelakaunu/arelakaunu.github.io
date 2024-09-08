@@ -2,7 +2,7 @@
 title: "Lessons from *Anything You Want* by Derek Sivers"
 header:
   image: 
-  teaser: "assets/images/markup-syntax-highlighting-teaser.jpg"
+  teaser: "assets/images/Designer.png"
 categories:
   - Books
 tags:
