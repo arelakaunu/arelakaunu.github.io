@@ -1,15 +1,41 @@
-function handleSubmit(event) {
-  event.preventDefault(); // Prevent form from refreshing the page
+document.addEventListener("DOMContentLoaded", function() {
+  // Handle "Contact Us" form submission
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const formData = new FormData(this);
+    sendFormData(formData);
+  });
 
-  // Collect form values
-  const name = document.getElementById('name').value;
-  const email = document.getElementById('email').value;
-  const dob = document.getElementById('dob').value;
+  // Handle "Newsletter Signup" form submission
+  document.getElementById("newsletter-form").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const formData = new FormData(this);
+    sendFormData(formData);
+  });
 
-  // Display the collected data (for demo purposes)
-  console.log('Name:', name);
-  console.log('Email:', email);
-  console.log('Date of Birth:', dob);
+  // Show/hide the "Other Occupation" field based on selection
+  document.getElementById("occupation").addEventListener("change", function() {
+    const otherField = document.getElementById("other-occupation-field");
+    if (this.value === "other") {
+      otherField.style.display = "block";
+    } else {
+      otherField.style.display = "none";
+    }
+  });
+});
 
-  // You can send the data to your server or process it further here
+function sendFormData(formData) {
+  const xhr = new XMLHttpRequest();
+  xhr.open("POST", "https://formspree.io/f/xqazjjbz"); // Replace with the correct Formspree endpoint
+  xhr.setRequestHeader("Accept", "application/json");
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        alert("Form successfully submitted!");
+      } else {
+        alert("There was a problem submitting the form.");
+      }
+    }
+  };
+  xhr.send(formData);
 }
