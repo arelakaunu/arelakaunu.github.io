@@ -35,4 +35,4 @@ In this dynamic landscape, collaboration emerges as a linchpin of progress. Rese
 
 As we traverse the ever-evolving realm of medical imaging, one thing remains abundantly clear – AI isn't merely a tool; it's a beacon of innovation, guiding us towards a future where every MRI image is a testament to the boundless possibilities of technology and human ingenuity. And in this future, where AI and human expertise converge, the horizons of healthcare expand ever further, offering hope and healing to countless lives.
 
-Read the full review [here](assets/pdf/ai_medical_review.pdf).
+Read the full review [here](/assets/pdf/ai_medical_review.pdf).
