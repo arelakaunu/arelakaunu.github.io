@@ -4,8 +4,8 @@ header:
   image: 
   teaser: "assets/images/Designer.png"
 categories:
-  - Research Project
-  - Machine Learning
+  - Research
+  - AI
 tags:
   - ai
   - artificial intelligence
