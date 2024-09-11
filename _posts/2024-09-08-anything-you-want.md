@@ -8,6 +8,7 @@ categories:
 tags:
   - entrepreneurship
   - books
+toc: true
 ---
 Derek Sivers' *Anything You Want* offers some unconventional yet powerful insights into business and life. Here are the key takeaways that stood out to me:
 
