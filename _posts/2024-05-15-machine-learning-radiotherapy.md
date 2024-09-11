@@ -7,6 +7,7 @@ header:
 categories:
   - Research
   - AI
+toc: true
 tags:
   - ai
   - artificial intelligence
