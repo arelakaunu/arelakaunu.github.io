@@ -1,8 +1,9 @@
 ---
 title: "How Machine Learning is Used to Reduce Motion in MRI"
+permalink: /AI/machine-learning-radiotherapy
 header:
   image: 
-  teaser: "assets/images/Designer.png"
+  teaser: "assets/images/mri.jpeg"
 categories:
   - Research
   - AI
@@ -14,25 +15,31 @@ tags:
   - radiotherapy
   - mri
 ---
-### TL;DR
-In the realm of modern healthcare, Magnetic Resonance Imaging (MRI) reigns supreme for its unparalleled precision. However, motion artefacts often compromise image clarity, hindering accurate diagnoses. Enter Artificial Intelligence (AI), wielding Convolutional Neural Networks (CNNs) to revolutionise MRI motion correction. While AI shows immense promise, challenges like limited data and lengthy training sessions persist. Yet, through collaboration and innovation, hybrid approaches are emerging, combining AI with traditional techniques for sharper MRI images. The future of MRI imaging holds boundless possibilities, where AI and human expertise converge to redefine patient care.
+### Introduction
+Artificial Intelligence (AI) has shown great potential in improving many areas of medical imaging, and its application to Magnetic Resonance Imaging (MRI) is no exception. One of the main challenges in MRI is dealing with motion artefacts, which can distort images and impact their diagnostic value. My literature review examines the role of AI in addressing this issue, particularly focusing on the effectiveness of AI tools in motion artefact correction. In this post, I will summarise the key findings from my review and explore the potential and limitations of AI in this field.
 
-### Full Article
-In the sprawling tapestry of modern healthcare, where precision and clarity are paramount, Magnetic Resonance Imaging (MRI) stands as a beacon of diagnostic excellence. Offering unparalleled insights into the intricate architecture of the human body's soft tissues, MRI has emerged as a cornerstone of medical imaging. Yet, amidst its myriad benefits, MRI is not without its challenges.
+### Understanding MRI and Motion Artefacts
+MRI is a widely used medical imaging technique, valued for its ability to provide detailed images of soft tissues without using ionising radiation. It works by aligning the protons in our body with a magnetic field and then using radiofrequency pulses to create images. However, due to the length of time needed to acquire high-resolution MRI images, they are prone to artefacts, especially motion artefacts. These distortions occur when patients move during the scan, whether it's voluntary or involuntary motion (such as breathing or heartbeats). The resulting images can be blurry or ghosted, compromising their usefulness for diagnosis.
 
-Chief among these challenges are motion artefacts – those pesky distortions and blurs that mar MRI images when patients move during scans. These artefacts not only compromise the fidelity of images but also present formidable obstacles to accurate diagnoses. For clinicians striving for pinpoint precision, finding effective solutions to mitigate these artefacts is imperative.
+### Traditional Approaches to Motion Correction
+Traditional motion correction methods in MRI have focused on both preventing and correcting motion artefacts. Techniques like "PROPELLER" (Periodically Rotated Overlapping Parallel Lines with Enhanced Reconstruction) have effectively improved image quality by estimating and compensating for motion. However, traditional methods have their limitations. They can be computationally intensive, require additional hardware or postprocessing software, and sometimes increase the scanning time, which might introduce more artefacts.
 
-Enter Artificial Intelligence (AI), the transformative force reshaping the landscape of modern medicine. Armed with potent algorithms and machine learning capabilities, AI holds the promise of revolutionising MRI motion correction. At the forefront of this revolution are Convolutional Neural Networks (CNNs), cutting-edge AI models that offer a tantalising glimpse into the future of MRI imaging.
+### AI-Based Techniques for Motion Artefact Correction
+AI, particularly deep learning (DL) techniques like Convolutional Neural Networks (CNNs), has gained significant attention for its ability to automate and enhance image analysis in medical imaging. CNNs are highly effective at recognising and correcting artefacts in MR images. For example, they have been used to detect and quantify motion artefacts, and even propose visualisation methods that highlight the features within an image that are responsible for motion artefacts.
 
-The potential of AI in MRI imaging is nothing short of awe-inspiring. Envision a world where motion artefacts are swiftly identified and corrected in real time, where the clarity of MRI images rivals that of a meticulously crafted masterpiece. This is the future that AI beckons – a future where every pixel tells a story, every scan a testament to the power of technology and human ingenuity.
+Studies show that CNNs can handle various types of motion, such as rigid head motion and non-rigid respiratory motion, making them versatile tools for MRI motion correction. More advanced methods like the Network Accelerated Motion Estimation and Reduction (NAMER) technique combine CNNs with model-based reconstructions, allowing for rapid motion correction in brain imaging.
 
-<img src="/assets/images/haskell.jpg" alt="" class="full">
-<figcaption>Reconstructed images assuming no motion occurred, correcting for motion between shots (intershot correction), and correction results after allowing fine-tuning of the motion parameters for each line of k-space at highly corrupted shots (intrashot correction). Haskell 2019.</figcaption>
+### Challenges in AI-Driven Motion Correction
+One of the major challenges with AI techniques is the time required for training models. Deep learning models, such as CNNs, require extensive training with large datasets to perform effectively. Additionally, the time needed to train these models can be long, which presents a barrier, especially in clinical settings where real-time corrections are needed. However, once trained, these models can be used to reconstruct images in real time, which could save time in the long run.
 
-Yet, like any groundbreaking technology, AI faces its own set of challenges. Limited training data and the time-intensive nature of model training sessions pose formidable hurdles on the path to perfection. However, researchers and clinicians are undeterred, forging ahead with determination and ingenuity, driven by the promise of a brighter, clearer future for MRI imaging.
+Another issue is the lack of sufficient training data. MRI scans vary widely between patients, and there isn't always enough high-quality data to train AI models effectively. Some researchers have turned to motion simulation tools to generate synthetic training data, which can help to overcome this limitation.
 
-In this dynamic landscape, collaboration emerges as a linchpin of progress. Researchers, clinicians, and technologists are joining forces, exploring hybrid approaches that marry the precision of AI with the wisdom of traditional correction techniques. This fusion of old and new holds immense promise, paving the way for sharper, clearer MRI images that redefine the boundaries of patient care.
+### Hybrid Approaches: Combining AI and Traditional Techniques
+Hybrid approaches are becoming more popular as they combine the strengths of traditional motion correction methods with the flexibility and automation of AI techniques. For instance, traditional methods can still provide a reliable framework for estimating motion, while AI can be used to fine-tune and optimise the corrections. This hybrid model has been shown to improve the overall efficacy of motion correction in MRI, with studies suggesting that AI tools can work alongside existing clinical methods to provide more consistent and accurate results.
 
-As we traverse the ever-evolving realm of medical imaging, one thing remains abundantly clear – AI isn't merely a tool; it's a beacon of innovation, guiding us towards a future where every MRI image is a testament to the boundless possibilities of technology and human ingenuity. And in this future, where AI and human expertise converge, the horizons of healthcare expand ever further, offering hope and healing to countless lives.
+### Conclusion
+The use of AI in MRI motion artefact correction is an exciting and rapidly evolving field. While AI tools like CNNs and U-Nets have shown considerable promise, they are not without their limitations, particularly in terms of training time and data availability. However, when combined with traditional techniques, AI can significantly improve the quality and efficiency of MRI scans, leading to better patient outcomes. As this field continues to develop, future research should focus on creating diverse training data sets and refining hybrid approaches to maximise the benefits of both AI and conventional methods.
+
+The next frontier in this field lies in clinical implementation, where we can begin to see AI's true potential in improving diagnostic accuracy and patient care.
 
 Read the full review [here](/assets/pdf/ai_medical_review.pdf).
