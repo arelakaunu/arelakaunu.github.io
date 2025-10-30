@@ -21,13 +21,13 @@ title                    : "Arel Akaunu"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Arel Akaunu"
-description              : "Coding Portfolio - MSc Data Science Student - University of Cambridge Physics Graduate"
+description              : "Coding Portfolio - MSc Data Science - University of Cambridge Physics Graduate"
 url                      : "https://arelakaunu.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "arelakaunu/arelakaunu.github.io"
 teaser                   : "/assets/images/cam.jpeg"
 logo                     : "/assets/images/aa-logo.jpeg"
-masthead_title           : "That FinTech Bro."
+masthead_title           : "Arel Akaunu"
 breadcrumbs              : true
 words_per_minute         : 200
 enable_copy_code_button  : true
@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Arel Akaunu"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "ML Engineer Intern. MSc Data Science Student. University of Cambridge Physics Graduate."
+  bio              : "Associate Data Scientist. MSc Data Science. University of Cambridge Physics Graduate."
   location         : "London, UK"
   email            : "areloakaunu@gmail.com"
   linkedin         : "arel-akaunu"
@@ -156,7 +156,7 @@ footer:
       target: "_blank"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/arel.akaunu/"
+      url: "https://www.instagram.com/that.fintechbro/"
       target: "_blank"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
