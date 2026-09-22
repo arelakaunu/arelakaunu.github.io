@@ -1,25 +1,11 @@
-# main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Newsletter"
-    url: /newsletter/
-  - title: "Posts"
+  - title: "Portfolio"
+    url: /portfolio/
+  - title: "Articles"
     url: /year-archive/
   - title: "About"
     url: /about/
-  - title: "Contact Me"
+  - title: "Contact"
     url: /contact/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
-  - title: "External Link"
-    url: https://google.com
-    target: _blank
+  - title: "GitHub"
+    url: https://github.com/arelakaunu

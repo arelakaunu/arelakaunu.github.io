@@ -1,0 +1,12 @@
+<div class="portfolio-grid">
+{% assign projects = site.portfolio | sort: "order" %}
+{% for project in projects %}
+  <article class="portfolio-card">
+    <p class="portfolio-card__type">{{ project.project_type | escape }}</p>
+    <h2><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2>
+    <p>{{ project.excerpt | strip_html }}</p>
+    <p class="portfolio-card__stack">{{ project.stack | escape }}</p>
+    <a class="portfolio-card__link" href="{{ project.url | relative_url }}" aria-label="Read {{ project.title | escape }}">Explore project <span aria-hidden="true">→</span></a>
+  </article>
+{% endfor %}
+</div>
