@@ -1,12 +1,18 @@
 <div class="portfolio-grid">
 {% assign projects = site.portfolio | sort: "order" %}
 {% for project in projects %}
-  <article class="portfolio-card">
-    <p class="portfolio-card__type">{{ project.project_type | escape }}</p>
-    <h2><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2>
-    <p>{{ project.excerpt | strip_html }}</p>
-    <p class="portfolio-card__stack">{{ project.stack | escape }}</p>
-    <a class="portfolio-card__link" href="{{ project.url | relative_url }}" aria-label="Read {{ project.title | escape }}">Explore project <span aria-hidden="true">→</span></a>
+  {% assign image = nil %}
+  {% case project.order %}
+    {% when 1 %}{% assign image = '/assets/portfolio/squash-ratings/figures/fatigue_histogram.png' %}
+    {% when 2 %}{% assign image = '/assets/portfolio/human-activity-recognition/activity-distribution.png' %}
+  {% endcase %}
+  <article class="portfolio-card portfolio-card--{{ project.order }}">
+    <a class="portfolio-card__visual" href="{{ project.url | relative_url }}" aria-label="View {{ project.title | escape }}">
+      <span class="portfolio-card__number">0{{ project.order }}</span>
+      {% if image %}<img src="{{ image | relative_url }}" alt="" loading="lazy">{% else %}<span class="portfolio-card__graphic" aria-hidden="true"><span></span><span></span><span></span></span>{% endif %}
+      <span class="portfolio-card__arrow" aria-hidden="true">↗</span>
+    </a>
+    <div class="portfolio-card__body"><p class="portfolio-card__type">{{ project.project_type | escape }}</p><h3><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h3><p>{{ project.excerpt | strip_html }}</p><p class="portfolio-card__stack">{{ project.stack | escape }}</p></div>
   </article>
 {% endfor %}
 </div>

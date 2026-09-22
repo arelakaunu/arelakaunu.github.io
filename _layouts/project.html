@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<main class="project-page">
+  <section class="project-hero section-shell">
+    <a class="project-back" href="{{ '/portfolio/' | relative_url }}">← All projects</a>
+    <p class="eyebrow">PROJECT 0{{ page.order }} / {{ page.project_type | upcase }}</p>
+    <h1>{{ page.title }}<span class="accent-period">.</span></h1>
+    <p class="project-hero__summary">{{ page.excerpt }}</p>
+    <div class="project-hero__meta"><span>{{ page.stack }}</span><a href="https://github.com/arelakaunu/msc-data-science-portfolio/tree/main/projects/{{ page.path | split: '/' | last | remove: '.md' }}" target="_blank" rel="noopener noreferrer">View source on GitHub ↗</a></div>
+  </section>
+  <div class="section-shell project-body"><aside class="project-sidebar"><p class="eyebrow">IN THIS PROJECT</p><p>{{ page.project_type }}</p><div class="project-sidebar__rule"></div><a href="{{ '/portfolio/' | relative_url }}">← Back to portfolio</a></aside><article class="project-content">{{ content }}</article></div>
+  <div class="section-shell project-next">{% assign projects = site.portfolio | sort: 'order' %}{% for project in projects %}{% if project.order == page.order %}{% assign next_index = forloop.index %}{% endif %}{% endfor %}{% if next_index == projects.size %}{% assign next_index = 0 %}{% endif %}{% assign next_project = projects[next_index] %}<span class="eyebrow">UP NEXT</span><a href="{{ next_project.url | relative_url }}">{{ next_project.title }} <span aria-hidden="true">↗</span></a></div>
+</main>

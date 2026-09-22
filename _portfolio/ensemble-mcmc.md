@@ -1,7 +1,7 @@
 ---
 title: "Ensemble MCMC and Bayesian inference"
 permalink: "/portfolio/ensemble-mcmc/"
-layout: "single"
+layout: "project"
 classes: "wide"
 author_profile: false
 toc: true

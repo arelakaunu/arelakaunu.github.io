@@ -1,29 +1,29 @@
-document.addEventListener("DOMContentLoaded", function() {
-  document.getElementById("contact-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    const formData = new FormData(this);
-    sendFormData(formData);
-  });
+document.addEventListener("DOMContentLoaded", () => {
+  for (const id of ["contact-form", "newsletter-form"]) {
+    const form = document.getElementById(id);
+    if (!form) continue;
 
-  document.getElementById("newsletter-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-    const formData = new FormData(this);
-    sendFormData(formData);
-  });
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const status = form.querySelector(".form-status");
+      const button = form.querySelector('button[type="submit"]');
+      button.disabled = true;
+      status.textContent = "Sending…";
 
-  function sendFormData(formData) {
-    const xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://formspree.io/f/xqazjjbz"); // Replace with the correct Formspree endpoint
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === XMLHttpRequest.DONE) {
-        if (xhr.status === 200) {
-          alert("Form successfully submitted!");
-        } else {
-          alert("There was a problem submitting the form.");
-        }
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: { Accept: "application/json" }
+        });
+        if (!response.ok) throw new Error("Submission failed");
+        form.reset();
+        status.textContent = "Thanks — your message has been sent.";
+      } catch (_) {
+        status.textContent = "Sorry, the form could not be sent. Please try again or email me directly.";
+      } finally {
+        button.disabled = false;
       }
-    };
-    xhr.send(formData);
+    });
   }
 });

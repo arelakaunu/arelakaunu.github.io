@@ -1,7 +1,7 @@
 ---
 title: "Statistical test power through simulation"
 permalink: "/portfolio/statistical-test-power/"
-layout: "single"
+layout: "project"
 classes: "wide"
 author_profile: false
 toc: true

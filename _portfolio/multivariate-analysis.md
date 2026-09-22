@@ -1,7 +1,7 @@
 ---
 title: "Exploring multivariate datasets"
 permalink: "/portfolio/multivariate-analysis/"
-layout: "single"
+layout: "project"
 classes: "wide"
 author_profile: false
 toc: true

@@ -9,18 +9,4 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 
-/* Portfolio cards use the site's existing Minimal Mistakes colours. */
-.portfolio-intro { max-width: 52rem; margin-bottom: 2rem; }
-.portfolio-eyebrow { font-size: .7em; letter-spacing: .13em; font-weight: 700; color: $muted-text-color; }
-.portfolio-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin: 1.5rem 0 2rem; }
-.portfolio-card { display: flex; flex-direction: column; padding: 1.5rem; border: 1px solid $border-color; border-radius: 8px; background: mix($background-color, $text-color, 97%); }
-.portfolio-card h2 { margin: .35rem 0 .8rem; border: 0; padding: 0; font-size: 1.2em; line-height: 1.35; }
-.portfolio-card h2 a { text-decoration: none; }
-.portfolio-card p { font-size: .85em; }
-.portfolio-card .portfolio-card__type { margin: 0; font-size: .65em; text-transform: uppercase; letter-spacing: .09em; color: $muted-text-color; }
-.portfolio-card .portfolio-card__stack { margin-top: auto; padding-top: .75rem; font-size: .7em; color: $muted-text-color; }
-.portfolio-card__link { font-size: .8em; font-weight: 700; }
-.portfolio-note { font-size: .8em; color: $muted-text-color; }
-.project-back { font-size: .8em; }
-.portfolio-card a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
-@media (max-width: 640px) { .portfolio-grid { grid-template-columns: 1fr; } .portfolio-card { padding: 1.2rem; } }
+@import "portfolio-redesign";

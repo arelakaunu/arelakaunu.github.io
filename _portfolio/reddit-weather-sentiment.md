@@ -1,7 +1,7 @@
 ---
 title: "Extreme weather sentiment on Reddit"
 permalink: "/portfolio/reddit-weather-sentiment/"
-layout: "single"
+layout: "project"
 classes: "wide"
 author_profile: false
 toc: true

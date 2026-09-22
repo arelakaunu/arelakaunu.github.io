@@ -1,7 +1,7 @@
 ---
 title: "Human activity recognition"
 permalink: "/portfolio/human-activity-recognition/"
-layout: "single"
+layout: "project"
 classes: "wide"
 author_profile: false
 toc: true

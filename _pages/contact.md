@@ -1,17 +1,7 @@
 ---
 permalink: /contact/
-title: "Contact Me"
+title: "Contact Arel"
+layout: default
+excerpt: "Get in touch with Arel Akaunu."
 ---
-
-<form id="contact-form" action="https://formspree.io/f/xqazjjbz" method="POST">
-  <input type="hidden" name="form_type" value="contact">
-  <fieldset>
-    <legend>Reach Out!:</legend>
-    Name: <input type="text" name="name" size="30" required><br>
-    Email: <input type="email" name="email" size="30" required><br>
-    Enquiry: <textarea name="enquiry" rows="5" cols="30" required></textarea><br>
-    <button type="submit">Submit</button>
-  </fieldset>
-</form>
-
-<script src="/assets/js/form-handler.js"></script>
+<main><section class="page-hero section-shell"><p class="eyebrow">CONTACT</p><h1>Let's <em>connect</em><span class="accent-period">.</span></h1><p>Have a question about a project, an opportunity, or an idea to discuss? I'd be glad to hear from you.</p></section><section class="section-shell contact-layout"><div><p class="eyebrow">OTHER WAYS TO REACH ME</p><a class="contact-method" href="mailto:areloakaunu@gmail.com"><span>Email</span><strong>areloakaunu@gmail.com ↗</strong></a><a class="contact-method" href="https://www.linkedin.com/in/arel-akaunu" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><strong>Connect on LinkedIn ↗</strong></a><a class="contact-method" href="https://github.com/arelakaunu" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>Explore my repositories ↗</strong></a></div><div><form id="contact-form" class="contact-form" action="https://formspree.io/f/xqazjjbz" method="POST"><input type="hidden" name="form_type" value="contact"><label for="contact-name">Your name</label><input id="contact-name" type="text" name="name" autocomplete="name" required><label for="contact-email">Email address</label><input id="contact-email" type="email" name="email" autocomplete="email" required><label for="contact-message">Your message</label><textarea id="contact-message" name="enquiry" rows="6" required></textarea><button class="button button--primary" type="submit">Send message ↗</button><p class="form-status" role="status" aria-live="polite"></p></form></div></section></main><script src="{{ '/assets/js/form-handler.js' | relative_url }}"></script>

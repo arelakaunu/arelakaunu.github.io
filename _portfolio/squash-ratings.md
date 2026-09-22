@@ -1,7 +1,7 @@
 ---
 title: "Squash ratings and behavioural effects"
 permalink: "/portfolio/squash-ratings/"
-layout: "single"
+layout: "project"
 classes: "wide"
 author_profile: false
 toc: true
